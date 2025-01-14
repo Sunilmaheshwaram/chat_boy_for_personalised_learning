@@ -1,0 +1,92 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - many thanks
+
+- intent: ask_courses
+  examples: |
+    - What courses do you offer?
+    - Can you tell me about your courses?
+    - What subjects can I learn here?
+    - Do you teach Python or Java?
+
+- intent: ask_schedule
+  examples: |
+    - What is the schedule for classes?
+    - When are the classes conducted?
+    - Can you tell me the class timings?
+
+- intent: ask_Python_details
+  examples: |
+    - Tell me about Python classes?
+    - what are the timings of Python classes?
+
+- intent: ask_Java_details
+  examples: |
+    - Tell me about Java classes?
+    - what are the timings of Java classes?
+
+- intent: ask_JavaScript_details
+  examples: |
+    - Tell me about JavaScript classes?
+    - what are the timings of JavaScript classes?
+
+- intent: ask_c++_details
+  examples: |
+    - Tell me about c++ classes?
+    - what are the timings of c++ classes?
+
+- intent: ask_Machine Learning_details
+  examples: |
+    - Tell me about Machine Learning classes?
+    - what are the timings of Machine Learning classes?
+
+- intent: ask_Rasa_details
+  examples: |
+    - Tell me about Rasa classes?
+    - what are the timings of Rasa classes?
+
+- intent: ask_Python
+  examples: |
+    - what is Python?
+    - Tell me about Python?
+
+- intent: ask_Rasa
+  examples: |
+    - what is Rasa?
+    - Tell me about Rasa?
+
+
+
+
+
+
+    
+
+
+
+
+
