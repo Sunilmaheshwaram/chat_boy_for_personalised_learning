@@ -1,0 +1,85 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - ask_courses
+  - ask_schedule
+  - ask_Python_details
+  - ask_Java_details
+  - ask_JavaScript_details
+  - ask_c++_details
+  - ask_Machine Learning_details
+  - ask_Python
+  - ask_Rasa
+  - ask_Rasa_details
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+
+  utter_goodbye:
+  - text: "Goodbye! Have a great day!"
+
+  utter_thanks:
+  - text: "You are Welcome,it was my pleasure to assist you"
+
+  utter_ask_courses:
+  - text: |
+      We offer the following courses:
+      - Python
+      - Java
+      - JavaScript
+      - C++
+      - Machine Learning
+      Would you like details about any specific course?
+
+  utter_ask_schedule:
+  - text: Our classes run from Monday to Friday, 9 AM to 5 PM.
+
+  utter_Python_details:
+  - text: |
+      The Python course is designed to help you master the subject. 
+      Classes are held 4 times a week.
+
+  utter_Java_details:
+  - text: |
+      The Java course is designed to help you master the subject,classes are tough by Mr.Suresh sir.
+      Classes are held 4 times a week.
+
+  utter_JavaScript_details:
+  - text: |
+      The JavaScript course is designed to help you master the subject,classes are tough by Mr.Ramesh sir. 
+      Classes are held 3 times a week.
+
+  utter_c++_details:
+  - text: |
+      The c++ course is designed to help you master the subject,classes are tough by Mr.Mahesh sir. .  
+      Classes are held 1 times a week.
+
+  utter_Machine Learning_details:
+  - text: |
+      The Machine Learning course is designed to help you master the subject,classes are tough by Mr.Prakash sir.  
+      Classes are held 5 times a week.
+
+  utter_Python:
+  - text:
+      Python is a high-level, interpreted, and general-purpose programming language known for its simplicity, readability, and versatility.
+      It is widely used in various domains, including web development, data analysis, artificial intelligence, machine learning, scientific computing, automation, and more.
+
+  utter_Rasa:
+  - text:
+      Rasa is an open-source framework for building conversational AI applications, such as chatbots and voice assistants.
+      It is widely used to create intelligent and context-aware conversational agents.
+      Rasa provides tools to handle natural language understanding (NLU), dialogue management, and integrations with various messaging platforms.
+
+  utter_Rasa_details:
+  - text:
+      The Rasa course is designed to help you master the subject,classes are tough by Mr.Bhanu sir.
+      Classes are held 3 times a week.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
